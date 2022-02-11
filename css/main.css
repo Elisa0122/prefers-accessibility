@@ -75,6 +75,11 @@ html {
   }
 }
 
+@media (prefers-reduced-transparency: reduce) {
+  h1 {
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
 
 /* stylelint-disable media-feature-name-no-unknown */
 
