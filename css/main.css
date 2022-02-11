@@ -66,6 +66,16 @@ html {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+  }
+  .banner {
+    opacity: .7;
+  }
+}
+
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
