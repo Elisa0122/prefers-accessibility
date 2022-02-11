@@ -60,25 +60,21 @@ html {
   }
 
 }
+
 @media (prefers-reduced-motion) {
+
   .gear {
     animation: none;
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #222;
-  }
-  .banner {
-    opacity: .7;
-  }
 }
 
 @media (prefers-reduced-transparency: reduce) {
+
   h1 {
     background-color: rgba(0, 0, 0, 1);
   }
+
 }
 
 /* stylelint-disable media-feature-name-no-unknown */
