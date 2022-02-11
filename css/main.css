@@ -89,6 +89,22 @@ html {
    .gear {
      animation: none;
    }
+
+   @media (prefers-color-scheme: dark) {
+     body {
+       background-color: #222;
+     }
+     .banner {
+       opacity: .7;
+     }
+   }
+
+   @media (prefers-reduced-transparency: reduce) {
+     h1 {
+       background-color: rgba(0, 0, 0, 1);
+     }
+   }
+
  } Write your “prefers” media queries here, between these two `stylelint` comments.
  * Unfortunately, Markbot, is a little too old to understand them. :(
  * =============
